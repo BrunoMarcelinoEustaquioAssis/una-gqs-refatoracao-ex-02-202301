@@ -23,7 +23,7 @@ public class Cliente {
             return 800.0;
         }
     }
-//Feat-Criação do metodo calcularMensalidadeMasculina
+//Feat-Criação do metodo calcularMensalidadeFeminina
     private double calcularMensalidadeFeminina() {
         if (idade <= 15) {
             return 60.0;
