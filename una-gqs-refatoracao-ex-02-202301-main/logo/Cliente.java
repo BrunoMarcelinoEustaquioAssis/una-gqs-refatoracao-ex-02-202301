@@ -23,4 +23,18 @@ public class Cliente {
             return 800.0;
         }
     }
+//Feat-Criação do metodo calcularMensalidadeMasculina
+    private double calcularMensalidadeFeminina() {
+        if (idade <= 15) {
+            return 60.0;
+        } else if (idade <= 18) {
+            return 60.0;
+        } else if (idade <= 30) {
+            return 90.0;
+        } else if (idade <= 40) {
+            return 85.0;
+        } else {
+            return 80.0;
+        }
+    }
 }
