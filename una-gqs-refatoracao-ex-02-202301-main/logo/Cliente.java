@@ -49,5 +49,8 @@ public class Cliente {
             System.out.println("Sexo inválido.");
             mensalidade = 0.0;
         }
+//Feat - Inclusão return mensalidade;
+        return mensalidade;
+
     }
 }
