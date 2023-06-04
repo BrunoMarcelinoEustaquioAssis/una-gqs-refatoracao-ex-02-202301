@@ -37,4 +37,17 @@ public class Cliente {
             return 80.0;
         }
     }
+//Feat-Criação do metodo calcularMensalidade
+    public double calcularMensalidade() {
+        double mensalidade;
+    
+        if (sexo.equalsIgnoreCase("M")) {
+            mensalidade = calcularMensalidadeMasculina();
+        } else if (sexo.equalsIgnoreCase("F")) {
+            mensalidade = calcularMensalidadeFeminina();
+        } else {
+            System.out.println("Sexo inválido.");
+            mensalidade = 0.0;
+        }
+    }
 }
